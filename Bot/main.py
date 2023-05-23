@@ -16,6 +16,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+player_id = ""
+
 async def start(update: Update, context: CallbackContext):
     keyboard = [
         [
