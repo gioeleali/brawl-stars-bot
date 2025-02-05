@@ -3,8 +3,8 @@ import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, MessageHandler, CommandHandler, ContextTypes, CallbackQueryHandler, CallbackContext, filters
 
-API_KEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImVmNWU3MzMzLTg3OWQtNGZjOS1hMmRjLWIxN2U4YmE2MDhmOCIsImlhdCI6MTY4MjQ1OTM0OCwic3ViIjoiZGV2ZWxvcGVyLzQ5NTg3ZjliLTMwYjMtOTNhYy03MDc1LTM0NDY2OWYyYzFmMiIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiOTUuMjUxLjExNS4xMDMiXSwidHlwZSI6ImNsaWVudCJ9XX0.Z8eXwsoE0ocZRPW0owwzJ4oJOi5rsqAFhZnxhtscoQAwuw58rkqzwyhwlzMCKe0bvbFrBTfdbqaNF8qMmwL_GA"
-TOKEN = "6174985305:AAE0eR2sjLKNJ3liYjs4EqtDgndS3lXSQ2U"
+API_KEY = "YOUR API KEY CODE"
+TOKEN = "YOUR TOKEN"
 URL = "https://api.brawlstars.com/v1/"
 headers = {
     'Content-Type': 'application/json',
